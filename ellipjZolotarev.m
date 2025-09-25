@@ -1,5 +1,8 @@
 function [roots,poles,sigma] = ellipjZolotarev(a,b,c,d,n)
     % assume -Inf <= a < b < c < d <= Inf
+    % computes the roots and poles of the Zoloterev rational function for Z_n([a,b],[c,d])
+    % and returns sigma = Z_n([a,b], [c,d])
+    
     M = cross_ratio(a,b,c,d);
     gam = -1 + 2*M + 2*sqrt(M)*sqrt(M - 1);
 
