@@ -1,5 +1,7 @@
 function Z = ZolotarevNumber(a,b,c,d,n)
 % assume -Inf <= a < b < c < d <= Inf
+% computes the Zolotarev number Z_n([a,b], [c,d])
+
 gamma = cross_ratio(a,b,c,d);
 rho = exp(pi^2 / (pi * ellipke(1-1/gamma)/ellipke(1/gamma)));
 Z = 4*rho.^(-n);
