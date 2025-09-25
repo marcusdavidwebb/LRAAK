@@ -1,4 +1,4 @@
-## Low- rank approximation of analytic kernels
+## Low-rank approximation of analytic kernels
 
 This repository hosts the MATLAB examples for the paper *Low-rank approximation of analytic kernels* by Marcus Webb [https://arxiv.org/abs/2509.14017](https://arxiv.org/abs/2509.14017).
 
